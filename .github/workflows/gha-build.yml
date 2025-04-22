@@ -17,7 +17,7 @@ jobs:
         run: sleep 5
 
       - name: Push binary
-        run: echo "Pushing Binary to ECR..."
+        run: echo "Pushing Binary to ECR...."
 
       - name: Register Build Artifacts in Cloudbees Platform
         uses: cloudbees-gha-cbp/register-build-artifact@main
